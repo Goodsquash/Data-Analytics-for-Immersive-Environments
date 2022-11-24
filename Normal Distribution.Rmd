@@ -1,0 +1,34 @@
+---
+title: "Normal Distribution for DAIE"
+author: "Conor Crean & Peter Leary"
+date: "`r Sys.Date()`"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+
+
+
+```
+
+#Header
+
+## Header
+```{r}
+
+library(readr)
+shoe_size <- read_csv("shoe_size.csv")
+#View(shoe_size)
+
+head(shoe_size,10)
+
+summary(shoe_size)
+
+
+```
+
+
+
+
+
